@@ -37,4 +37,9 @@ dart[3].push(home, 'hawkins')
 // console.log(dart)
 
 wolfy.splice(0,1, 'gameboy')
-console.log(wolfy)
+// console.log(wolfy)
+
+let tmnt = ['donatello','leonardo', 'raphael', 'michaelangelo']
+for(let turtle of tmnt){
+    console.log(turtle.toUpperCase())
+}
