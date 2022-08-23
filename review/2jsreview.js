@@ -79,3 +79,11 @@ console.log(whereIsWaldo[1].splice(whereIsWaldo[1].findIndex(element => element 
 console.log(whereIsWaldo)
 console.log('here is ' + whereIsWaldo[2][1][1]+'!!')
 
+let speak = ['human why are you taking picture of me',
+ 'the catnip made me do it', 'why does the red dot always get away?']
+
+for(let i = 0; i <= 20; i++){
+    if(i % 2 === 0){
+        console.log(speak[Math.floor(Math.random()*3)])
+    }else{console.log('love me, pet me! hssss!')}
+}
