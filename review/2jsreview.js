@@ -60,8 +60,8 @@ favMovies.push('Gaurdians of the Galaxy')
 // console.log(favMovies)
 favMovies.reverse()
 // console.log(favMovies)
-console.log(favMovies.shift())
-console.log(favMovies.unshift('gaurdians of the galaxy'))
+// console.log(favMovies.shift())
+// console.log(favMovies.unshift('gaurdians of the galaxy'))
 // the unshift returns the length of the mutated array
 
 // favMovies.splice(favMovies.findIndex(movie => movie === "Django Unchained"), 1, 'Avatar')
@@ -69,3 +69,13 @@ console.log(favMovies.unshift('gaurdians of the galaxy'))
 let backHalf = favMovies.slice(favMovies.length/2, favMovies.length)
 // console.log(backHalf)
 // slice pulled out a subset of the array that is composed of the last half of the array
+
+const whereIsWaldo = [['timmy', 'frank'], 'eggbert',
+['lucinda', 'jacc', 'neff', 'snoop'],['petunia',['baked goods', 'Waldo']]]
+
+whereIsWaldo.splice(1,1)
+// console.log(whereIsWaldo)
+console.log(whereIsWaldo[1].splice(whereIsWaldo[1].findIndex(element => element === 'neff'), 1, 'no one'))
+console.log(whereIsWaldo)
+console.log('here is ' + whereIsWaldo[2][1][1]+'!!')
+
