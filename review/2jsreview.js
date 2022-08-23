@@ -75,15 +75,19 @@ const whereIsWaldo = [['timmy', 'frank'], 'eggbert',
 
 whereIsWaldo.splice(1,1)
 // console.log(whereIsWaldo)
-console.log(whereIsWaldo[1].splice(whereIsWaldo[1].findIndex(element => element === 'neff'), 1, 'no one'))
-console.log(whereIsWaldo)
-console.log('here is ' + whereIsWaldo[2][1][1]+'!!')
+// console.log(whereIsWaldo[1].splice(whereIsWaldo[1].findIndex(element => element === 'neff'), 1, 'no one'))
+// console.log(whereIsWaldo)
+// console.log('here is ' + whereIsWaldo[2][1][1]+'!!')
 
 let speak = ['human why are you taking picture of me',
  'the catnip made me do it', 'why does the red dot always get away?']
 
-for(let i = 0; i <= 20; i++){
-    if(i % 2 === 0){
-        console.log(speak[Math.floor(Math.random()*3)])
-    }else{console.log('love me, pet me! hssss!')}
-}
+// for(let i = 0; i <= 20; i++){
+//     if(i % 2 === 0){
+//         console.log(speak[Math.floor(Math.random()*3)])
+//     }else{console.log('love me, pet me! hssss!')}
+// }
+
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,18,12,17,12,71,18,15,12]
+nums.sort()
+console.log(nums[Math.floor(nums.length/2)])
