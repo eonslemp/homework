@@ -90,4 +90,41 @@ let speak = ['human why are you taking picture of me',
 
 const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,18,12,17,12,71,18,15,12]
 nums.sort()
-console.log(nums[Math.floor(nums.length/2)])
+// console.log(nums[Math.floor(nums.length/2)])
+
+//Return of the Closets
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    'right sock',
+    "GA hoodie",
+    "green pants",
+    "yello knit hat",
+    "marshmallow peeps"
+];
+
+//thom's closet is more complicated
+const thomsCloset = [
+    [
+        //shirts
+        "grey button-up",
+        "dark grey button-up",
+        "light blue button-up",
+        "blue button-up"
+    ], [
+        //pants
+        'grey jeans',
+        'jeans',
+        'PJs'
+    ],[
+        //accessories
+        "wool mittens",
+        "wool scarf",
+        "raybans"
+    ]
+];
+
+krystinsShoe = kristynsCloset.shift()
+// console.log(krystinsShoe)
+thomsCloset[2].unshift(krystinsShoe)
+// console.log(thomsCloset[2])
