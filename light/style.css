@@ -1,0 +1,49 @@
+:root {
+    --off: rgb(46, 4, 59);
+    --on: rgb(237, 209, 168);
+
+}
+body {
+    background-color: var(--off); 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    direction: column;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS';
+    font-size: 50px;
+    color: rgb(218, 222, 161);
+    margin: 0px;
+}
+
+#image {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 400px;
+    width: 400px;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.container {
+    display: grid;
+    width: 400px;
+    /* justify-content: center; */
+    /* align-content: center; */
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 30px;
+    border: 50px solid black;
+    border-radius: 20px;
+    /* border-color: black; */
+    background-color: black;
+    /* background-color:  var(--on); */
+}
