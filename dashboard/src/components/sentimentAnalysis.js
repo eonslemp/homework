@@ -1,8 +1,8 @@
 function SentimentAnalysis(){
     return (
-    <div>
+    <div class='sentiment'>
         <div>Sentiment Analysis</div>
-        <ul id='sentiment'>
+        <ul >
             <li>960</li>
             <li>122</li>
             <li>321</li>
